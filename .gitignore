@@ -1,0 +1,22 @@
+# Python, thsi file to ensure that the repository remains clean and only contains necessary code and files.
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Logs
+*.log
+
+# Datasets
+/path/to/train/nir_images/
+/path/to/train/depth_images/
+/path/to/test/nir_images/
+/path/to/test/depth_images/
+
+# Compiled files
+*.o
+*.so
+
+# Virtual environments
+venv/
+env/
+.env
